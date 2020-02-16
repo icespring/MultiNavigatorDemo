@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <FrameLayout
+        android:id="@+id/flutter_container1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+    <FrameLayout
+        android:id="@+id/flutter_container2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/pushSkinShop"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="push skin shop"/>
+        <Button
+            android:id="@+id/changeContainer"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="change container"/>
+        <Button
+            android:id="@+id/pushCircle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="push circle page"/>
+
+    </LinearLayout>
+</LinearLayout>
